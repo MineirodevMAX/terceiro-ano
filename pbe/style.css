@@ -1,0 +1,37 @@
+
+ 
+:root{
+    --cor-principal:#3498db;
+    --cor-secundaria:#2c3c50;
+    --espacamento:16px;
+}
+ 
+body{
+    font-family: Arial, sans-serif;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--espacamento);
+    background: var(--cor-principal);
+    color: rgb(214, 236, 23);
+}
+ 
+.menu{
+    display:flex;
+    gap: 10px;
+}
+ 
+.menu a{
+    color:rgb(0, 255, 94);}
+
+
+
+
+
+
+
+
+
+
